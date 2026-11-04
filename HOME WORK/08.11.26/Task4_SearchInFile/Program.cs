@@ -20,7 +20,7 @@ class Program
 
             if (word.Length == 0)
             {
-                Console.WriteLine("Слово для поиска не должно быть пустым.");
+                Console.WriteLine("Слово для поиска должно быть");
                 Environment.ExitCode = 1;
                 return;
             }
